@@ -1,0 +1,38 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 74db57c8011cdbd47a2320da7ee3ffbf1f4d3bb8 Changes
+SHA1 edb30cd4f719b2f62a3762e6405d378507137b3a MANIFEST
+SHA1 7a87f0bf4460500101e38242b27f0cdd2a67bfc7 META.yml
+SHA1 99b8d932dbca07ad5896a2714299954afaf14da1 Makefile.PL
+SHA1 55b347e6ce0694d999de0c8132730465780a4d83 README
+SHA1 7ee5c1084d7d41f97696e464902870fc4b6d8feb bin/plurk
+SHA1 0d04fad585c56c92b307e65069105853d3b11620 lib/WWW/Plurk.pm
+SHA1 2bbb5d5be84d049f9d83617f648f3ad363c1535a lib/WWW/Plurk/Friend.pm
+SHA1 fba863248fa26cbd4472c4ab38fa530fe1a83b5a lib/WWW/Plurk/Message.pm
+SHA1 76f2f43f1bfaf29542bd3908542e52799dda558d t/00.load.t
+SHA1 e4317e18eb955fe309849fbe395df4b05bbc3f7f t/login.t
+SHA1 9e832c0d024a3129576ecb84b7307fef5679e4d5 t/misc.t
+SHA1 bdd09cf1930990e0da69bcd59e551c6b162f24d0 t/pod-coverage.t
+SHA1 0190346d7072d458c8a10a45c19f86db641dcc48 t/pod.t
+SHA1 b7b3f984b537bc31de29a4ca2efb69ad90e0c3c4 t/post.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.8 (Darwin)
+
+iEYEARECAAYFAkhVV3kACgkQwoknRJZQnCHryQCgqCKls9YPHEib19A29vzuVGsR
+rZ0AoLcRLdqawqnjbrRYwOrM/mD+3zwI
+=6px/
+-----END PGP SIGNATURE-----
